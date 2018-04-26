@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/*飞扬标准信息管理系统模板*/
+/*微软雅黑   \5FAE\8F6F\96C5\9ED1  或 Microsoft YaHei
+  黑体       \9ED1\4F53
+  新宋体     \65B0\5B8B\4F53
+  宋体       \5b8b\4f53
+  幼圆	YouYuan	\5E7C\5706
+*/
+.cms h1:after,.cms h2:after,.cms ul:after,.cms ol:after,.cms dl:after,.cms dt:after,.cms dd:after,.art_copy:after,.cms:after{content:"";display:block;height:0;clear:both;visibility:hidden}
+
+.cms{font-size:14px}
+.cms .ad{width:100%; float:left}
+/*位置控制区*/
+.cms h1,.cms h2,.cms li,.cms ol,.cms .ul_list .lines,.img_tit em,.cov_pic em,.cms .img_tit span,.cms img,.cov_pic,.cov_pic span,.cms .o_tit,.cms .b_tit{width:100%;display:block;overflow:hidden}
+.cms li{float:left}
+.cms h3,.cms h4,.cms h5,.cms h6{float:left;display:block;overflow:hidden}
+.cov_pic,.cms img{width:100%;height:100%; display:block}
+.cms dd,.cov_pic{position:relative}
+.cms .b,.cov_pic span,.cov_pic em{position:absolute}
+
+/*cms*/
+.cms h1{line-height:25px;text-align:center;font-size:20px;font-weight:normal}
+.cms h2{height:23px;padding-top:8px;line-height:15px;font-size:12px;text-align:center;font-weight:normal}.cms h2 a:first-child{padding-right:12px}
+.cms h1 a{color:#ff7519}.cms h2 a{color:#9d9c9d}
+.cms .ul_list .dot{width:4px;height:4px;margin-top:-4px;vertical-align:middle}
+.cms .ul_list li{height:28px;padding:3px 0}
+.cms .ul_list li a.a,.cms .ul_list li .rspan{height:22px;line-height:22px;overflow:hidden}.cms .ul_list li a.a{padding-left:9px}
+.cms .rspan{color:#B9B9B9;float:right}
+.cms .ul_list .lines{padding:0!important;margin:3px 0 3px 0!important;height:1px;line-height:1px;border-top:1px dotted #DEDEDE}
+
+.cms a:hover .u,.cms a:hover ol{text-decoration:underline!important}.cms a:hover .m{text-decoration:none!important}
+.cms ol,.cms .u{font-size:17px!important}.cms a:hover .u,.cms a:hover ol{text-decoration:none!important}
+.cms ol{padding-top:12px;line-height:18px}
+.cms dl{width:100%;padding:0.12rem 0}
+.cms dt{width:31%; float:left}
+.cms dd{width:65.666666%; float:right}
+
+
+.cms dd p{display:inline-block; width:100%}
+.cms .u{line-height:0.22rem;padding-bottom:0.03rem;margin-top:-0.01rem;color:#222222}
+.cms .m{line-height:0.18rem;font-size:0.12rem;color:#8d8d8d}
+.cms .b{bottom:0;right:0;left:0;color:#999999}
+
+.cms .img_tit{font-size:12px;cursor:pointer; position:relative}
+.cms .img_tit em,.cms .img_tit span{line-height:18px;font-size:13px;color:#172c45;text-align:center;padding:5px 0}
+.cms .img_tit a:hover em{background:#F5F5F5; text-decoration:none!important}
+
+.cov_pic span,.cov_pic em{height:25px!important;line-height:25px!important;padding:0!important;font-size:13px;color:#FFF!important;text-align:center;left:0;bottom:0;}
+.cov_pic span{background:#000!important;z-index:2;filter:Alpha(Opacity=30);-moz-opacity:0.3;opacity:0.3}
+.cov_pic em{z-index:10;background:none!important}
+
+
+.cms .o_tit h4,.cms .o_tit h5,.cms .o_tit h6,.cms .o_tit p{height:20px;line-height:20px;padding:0px 0px 0px 8px;font-weight:400;display:block}
+.cms .o_tit h4,.cms .o_tit h5,.cms .o_tit h6{border-style:solid; border-width:0 0 0 2px}
+.cms .o_tit p{line-height:20px;font-size:12px;display:block;float:right}
+.cms .b_tit{height:30px;border-style:solid; border-width:0 0 1px 0;border-color:#eeeeee;}
+.cms .b_tit h4,.cms .b_tit h5,.cms .b_tit h6{height:30px;line-height:30px;border-style:solid; border-width:0 0 1px 0; z-index:20;position:absolute}
+
+
+/*thinkarticle*/
+.art_title{padding:10px 0 0 0}.art_title h1{line-height:1.5;font-size:20px;color:#222222;font-weight:normal;text-align:left}
+.art_res{height:33px;line-height:28px;font-size:12px;border-bottom:1px solid #dedede}
+.art_org{line-height:28px;color:#5c5b5b;float:left}.art_org a{color:#2d96e9}
+.art_intros{padding:15px;line-height:25px;background:#f7f7f7;color:#666666;font-size:12px}
+
+.art_content{padding:20px 0;font-size:16px;color:#222222!important}
+.art_content h4{line-height:40px;font-weight:bold}
+.art_content h6{line-height:30px;padding-bottom:10px;font-size:12px;font-weight:normal;text-align:center}
+.art_content p{text-indent:2em;line-height:1.9;padding-bottom:15px;word-wrap:break-word;text-align:justify;text-justify:distribute-all-lines;overflow:hidden}
+.art_content img{width:100%;display:block;margin:0 auto}.art_content p a{color:#5db2ff;font-weight:bold}
+
+/*thinkpage*/
+.cms-list ol{padding:12px 0 8px 0}
+.cms-list ul{padding-bottom:12px}
